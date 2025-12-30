@@ -1,5 +1,5 @@
 export const About = () => {
-  const resumeUrl = '/resume.pdf'; 
+  const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`; 
 
   return (
     <section className="py-16 px-4">

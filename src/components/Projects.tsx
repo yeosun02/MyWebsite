@@ -4,7 +4,7 @@ export const Projects = () => {
       title: 'Project 1',
       description: 'A web application built with React and TypeScript that demonstrates modern frontend development practices.',
       technologies: ['React', 'TypeScript', 'Tailwind CSS'],
-      link: '/webcam_demo.mp4',
+      link: `${import.meta.env.BASE_URL}webcam_demo.mp4`,
       github: '#',
     },
     {
