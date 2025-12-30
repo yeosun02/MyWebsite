@@ -14,6 +14,48 @@ export const About = () => {
           Passionate about challenging sophisticated problems and coming up with 
           the efficient solution.
           </p>
+          <div className="mt-4 mb-4">
+            <div className="mb-3">
+              <div className="flex justify-between items-center mb-1">
+                <p className="text-lg font-semibold text-gray-900 dark:text-white">
+                  University of California, Davis
+                </p>
+                <p className="text-base text-gray-600 dark:text-gray-400">
+                  2024-2026
+                </p>
+              </div>
+              <ul className="list-disc list-inside text-base text-gray-700 dark:text-gray-300 ml-4">
+                <li>Master of Science in Computer Science </li>
+              </ul>
+            </div>
+            <div className="mb-3">
+              <div className="flex justify-between items-center mb-1">
+                <p className="text-lg font-semibold text-gray-900 dark:text-white">
+                  University of California, Davis
+                </p>
+                <p className="text-base text-gray-600 dark:text-gray-400">
+                  2022-2024
+                </p>
+              </div>
+              <ul className="list-disc list-inside text-base text-gray-700 dark:text-gray-300 ml-4">
+                <li>Bachelor of Science in Computer Science </li>
+                <li>Bachelor of Science in Mathematics </li>
+              </ul>
+            </div>
+            <div>
+              <div className="flex justify-between items-center mb-1">
+                <p className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Santa Clara University
+                </p>
+                <p className="text-base text-gray-600 dark:text-gray-400">
+                  2020-2022 (Transferred)
+                </p>
+              </div>
+              <ul className="list-disc list-inside text-base text-gray-700 dark:text-gray-300 ml-4">
+                <li>Computer Science and Mathematics</li>
+              </ul>
+            </div>
+          </div>
           <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mt-4">
             Feel free to explore my skills, experience, and projects. If you'd like to
             connect, don't hesitate to reach out!

@@ -1,25 +1,18 @@
 export const Projects = () => {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'A web application built with React and TypeScript that demonstrates modern frontend development practices.',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS'],
+      title: 'Object Detection with 3D Bounding Boxes',
+      description: 'By using 2D bounding box predictions from YOLO model with monocular depth predictions, the system aims to approximate the spatial orientation and distance of objects.',
+      technologies: ['Machine Learning','Python', 'YOLOv8', 'MiDaS', 'BDD 100K'],
       link: `${import.meta.env.BASE_URL}webcam_demo.mp4`,
-      github: '#',
+      code: 'https://drive.google.com/drive/folders/18qf8viqIP6zCaWwZr4ixJNtsCeD6h8gp?usp=sharing',
     },
     {
-      title: 'Project 2',
-      description: 'A full-stack application with RESTful API and responsive design, showcasing backend and frontend integration.',
-      technologies: ['Node.js', 'React', 'MongoDB'],
-      link: '#',
-      github: '#',
-    },
-    {
-      title: 'Project 3',
-      description: 'A mobile-responsive portfolio website with dark mode support and smooth animations.',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS'],
-      link: '#',
-      github: '#',
+      title: 'My Website',
+      description: 'A personal website built using Cursor with React, TypeScript, and Tailwind CSS, showcasing my projects and skills.',
+      technologies: ['Cursor','React', 'TypeScript', 'Tailwind CSS'],
+      link: 'https://yeosun02.github.io/MyWebsite/',
+      code: 'https://github.com/yeosun02/MyWebsite',
     },
   ];
 
@@ -58,12 +51,12 @@ export const Projects = () => {
                   Live Demo
                 </a>
                 <a
-                  href={project.github}
+                  href={project.code}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-400 hover:underline"
                 >
-                  GitHub
+                  Code Repository
                 </a>
               </div>
             </div>
