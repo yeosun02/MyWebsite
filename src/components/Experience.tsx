@@ -1,20 +1,12 @@
 export const Experience = () => {
   const experiences = [
     {
-      title: 'Software Engineer',
-      company: 'Company Name',
-      location: 'City, State',
-      period: '2022 - Present',
-      description: 'Developed and maintained web applications using React and TypeScript. Collaborated with cross-functional teams to deliver high-quality software solutions.',
-      technologies: ['React', 'TypeScript', 'Node.js'],
-    },
-    {
-      title: 'Junior Developer',
-      company: 'Previous Company',
-      location: 'City, State',
-      period: '2020 - 2022',
-      description: 'Built responsive web interfaces and implemented RESTful APIs. Participated in code reviews and agile development processes.',
-      technologies: ['JavaScript', 'Python', 'SQL'],
+      title: 'Teaching Assistant',
+      company: 'UC Davis',
+      location: 'Davis, CA',
+      period: 'Jan 2026 - Present',
+      description: 'Assisted with the teaching of the undergraduate course ECS 189C: Software Correctness. Graded assignments and held office hours to help students with their questions.',
+      technologies: ['Python', 'Hypothesis', 'Pytest', 'Z3', 'Dafny'],
     },
   ];
 
@@ -61,4 +53,23 @@ export const Experience = () => {
     </section>
   );
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

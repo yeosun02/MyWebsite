@@ -77,3 +77,22 @@ The project uses Tailwind CSS. You can customize colors, spacing, and other desi
 
 MIT
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
