@@ -1,26 +1,26 @@
 export const Experience = () => {
   const experiences = [
     {
-      title: 'Teaching Assistant',
+      title: 'Teaching Assistant: Software Correctness',
       company: 'UC Davis',
       location: 'Davis, CA',
       period: 'Jan 2026 - Present',
-      description: `Assisted with the teaching of the undergraduate course ECS 189C: Software Correctness, class size of 62 students. \n 
-      - Guided students during weekly office hours, reviewing assignments, quizzes and exams.
-      - Created an autograder in Python that will check students' homework.
-      - Provided constructive feedback on assignments and exams.
-      - Managed the course Q\&A platform (Piazza) to provide support students.`,
+      description: `Assisted with the teaching of undergraduate course with class size of 62 students. <br/>
+      - Guided students during weekly office hours, reviewing assignments, quizzes and exams. <br/>
+      - Created an autograder in Python that will check students' homework. <br/>
+      - Provided constructive feedback on assignments and exams. <br/>
+      - Managed the course Q\&A platform (Piazza) to provide support to students.`,
       technologies: ['Python', 'Hypothesis', 'Pytest', 'Z3', 'Dafny'],
     },
     {
-      title: 'Teaching Assistant',
+      title: 'Teaching Assistant: Algorithm Design \& Analysis',
       company: 'UC Davis',
       location: 'Davis, CA',
       period: 'Apr 2025 - Jun 2025',
-      description: `Assisted with the teaching of the undergraduate course ECS 122B: Algorithm Design \& Analysis, class size of 158 students. \n 
-      - Guided students during weekly office hours, reviewing assignments, quizzes and exams
-      - Created grading rubrics and solution keys to grade assignments and provide constructive feedback
-      - Managed the course Q\&A platform (Piazza) to provide support students`,
+      description: `Assisted with the teaching of undergraduate course with class size of 158 students. <br/>
+      - Guided students during weekly office hours, reviewing assignments, quizzes and exams. <br/>
+      - Created grading rubrics and solution keys to grade assignments and provide constructive feedback. <br/>
+      - Managed the course Q\&A platform (Piazza) to provide support to students`,
       technologies: ['Suffix Tree', 'Divide and Conquer', 'Analysis of Algorithms'],
     },
   ];
@@ -39,16 +39,18 @@ export const Experience = () => {
                   <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
                     {exp.title}
                   </h3>
-                  <p className="text-xl text-gray-700 dark:text-gray-300 mb-1">
+                  <p className="text-xl text-gray-700 dark:text-gray-300">
                     {exp.company}
                   </p>
-                  <p className="text-lg text-gray-600 dark:text-gray-400">
-                    {exp.location}
-                  </p>
                 </div>
-                <span className="text-gray-600 dark:text-gray-400 font-medium mt-2 md:mt-0">
-                  {exp.period}
-                </span>
+                <div className="text-right mt-2 md:mt-0">
+                  <span className="text-gray-600 dark:text-gray-400 font-medium block">
+                    {exp.period}
+                  </span>
+                  <span className="text-lg text-gray-600 dark:text-gray-400 block">
+                    {exp.location}
+                  </span>
+                </div>
               </div>
               <p className="text-gray-600 dark:text-gray-400 mb-4">{exp.description}</p>
               <div className="flex flex-wrap gap-2">
