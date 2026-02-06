@@ -5,8 +5,23 @@ export const Experience = () => {
       company: 'UC Davis',
       location: 'Davis, CA',
       period: 'Jan 2026 - Present',
-      description: 'Assisted with the teaching of the undergraduate course ECS 189C: Software Correctness. Graded assignments and held office hours to help students with their questions.',
+      description: `Assisted with the teaching of the undergraduate course ECS 189C: Software Correctness, class size of 62 students. \n 
+      - Guided students during weekly office hours, reviewing assignments, quizzes and exams.
+      - Created an autograder in Python that will check students' homework.
+      - Provided constructive feedback on assignments and exams.
+      - Managed the course Q\&A platform (Piazza) to provide support students.`,
       technologies: ['Python', 'Hypothesis', 'Pytest', 'Z3', 'Dafny'],
+    },
+    {
+      title: 'Teaching Assistant',
+      company: 'UC Davis',
+      location: 'Davis, CA',
+      period: 'Apr 2025 - Jun 2025',
+      description: `Assisted with the teaching of the undergraduate course ECS 122B: Algorithm Design \& Analysis, class size of 158 students. \n 
+      - Guided students during weekly office hours, reviewing assignments, quizzes and exams
+      - Created grading rubrics and solution keys to grade assignments and provide constructive feedback
+      - Managed the course Q\&A platform (Piazza) to provide support students`,
+      technologies: ['Suffix Tree', 'Divide and Conquer', 'Analysis of Algorithms'],
     },
   ];
 
@@ -53,23 +68,3 @@ export const Experience = () => {
     </section>
   );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
