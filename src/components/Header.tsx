@@ -35,7 +35,7 @@ export const Header = () => {
         </h2>
         <p className="text-xl md:text-2xl font-medium mb-3 text-gray-700 dark:text-gray-300">
           jasonywork02@gmail.com <br />
-          +1 (949) 522-2399
+          949-522-2399 · Folsom, CA
         </p>
         <div className="flex justify-center gap-6">
           <a

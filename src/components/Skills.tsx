@@ -1,27 +1,22 @@
-// Programming Languages: Python, JavaScript, SQL, R, C++, Java
-
 export const Skills = () => {
   const skillCategories = [
     {
       category: 'Frontend',
-      skills: ['JavaScript', 'React', 'React Native', 'TypeScript', 'Vue.js', 
+      skills: ['JavaScript', 'React', 'React Native', 'TypeScript', 'Vue.js',
         'HTML/CSS', 'Tailwind CSS'],
     },
     {
-      category: 'Backend',
-      skills: ['Python', 'RESTful APIs', 'Django', 'Flask'],
-    },
-    {
-      category: 'Database',
-      skills: ['MySQL', 'SQLite', 'MongoDB', 'Firebase', 'Supabase'],
+      category: 'Backend & Database',
+      skills: ['Python', 'MySQL', 'SQLite', 'RESTful APIs', 'Django', 'Flask',
+        'MongoDB', 'Firebase', 'Supabase'],
     },
     {
       category: 'Data Science & Machine Learning',
-      skills: ['R', 'TensorFlow', 'PyTorch', 'scikit-learn', 'keras'],
+      skills: ['R', 'PyTorch', 'TensorFlow', 'scikit-learn', 'keras'],
     },
     {
-      category: 'Tools & Other Programming Languages',
-      skills: ['Git', 'GitHub', 'Notion', 'C++', 'C', 'Rust', 'C#', 'Go'],
+      category: 'Tools & Other Languages',
+      skills: ['C++', 'C', 'C#', 'GitHub', 'Cursor', 'MATLAB', 'Dart', 'Go', 'Rust'],
     },
   ];
 
@@ -54,4 +49,3 @@ export const Skills = () => {
     </section>
   );
 };
-

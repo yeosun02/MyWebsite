@@ -1,18 +1,17 @@
 export const About = () => {
-  const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`; 
+  const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`;
 
   return (
     <section className="py-16 px-4">
       <div className="container mx-auto max-w-4xl">
         <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-8 shadow-lg">
           <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-          Full-Stack Software Engineer with a strong foundation in computer 
-          science and mathematics. Proficient in developing dynamic mobile apps 
-          and websites using JavaScript, Vue, React, and Python. Modernized 20+ 
-          universitylabs by converting them from Matlab to Python, increasing 
-          accessibility and developed a R package for data visualization. 
-          Passionate about challenging sophisticated problems and coming up with 
-          the efficient solution.
+            M.S. Computer Science student with a strong foundation in full-stack
+            development, machine learning, and distributed systems. Led LikeLion
+            US Davis as Project Lead & President, earning 1st place out of 50+
+            teams in the 2023 Ideathon. Experienced in building everything from
+            autonomous vehicle perception pipelines to real-time metrics
+            monitoring systems.
           </p>
           <div className="mt-4 mb-4">
             <div className="mb-3">
@@ -21,11 +20,11 @@ export const About = () => {
                   University of California, Davis
                 </p>
                 <p className="text-base text-gray-600 dark:text-gray-400">
-                  2024-2026
+                  Sep 2024 – Jun 2026
                 </p>
               </div>
               <ul className="list-disc list-inside text-base text-gray-700 dark:text-gray-300 ml-4">
-                <li>Master of Science in Computer Science </li>
+                <li>M.S. in Computer Science, GPA: 3.870</li>
               </ul>
             </div>
             <div className="mb-3">
@@ -34,31 +33,18 @@ export const About = () => {
                   University of California, Davis
                 </p>
                 <p className="text-base text-gray-600 dark:text-gray-400">
-                  2022-2024
+                  Sep 2022 – Jun 2024
                 </p>
               </div>
               <ul className="list-disc list-inside text-base text-gray-700 dark:text-gray-300 ml-4">
-                <li>Bachelor of Science in Computer Science </li>
-                <li>Bachelor of Science in Mathematics </li>
-              </ul>
-            </div>
-            <div>
-              <div className="flex justify-between items-center mb-1">
-                <p className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Santa Clara University
-                </p>
-                <p className="text-base text-gray-600 dark:text-gray-400">
-                  2020-2022 (Transferred)
-                </p>
-              </div>
-              <ul className="list-disc list-inside text-base text-gray-700 dark:text-gray-300 ml-4">
-                <li>Computer Science and Mathematics</li>
+                <li>B.S. in Computer Science, B.S. in Mathematics, GPA: 3.946</li>
+                <li>Dean&apos;s Honors List — Fall 22, Spring 23, Winter 24, Spring 24</li>
               </ul>
             </div>
           </div>
           <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mt-4">
-            Feel free to explore my skills, experience, and projects. If you'd like to
-            connect, don't hesitate to reach out!
+            Feel free to explore my skills, experience, and projects. If you&apos;d like to
+            connect, don&apos;t hesitate to reach out!
           </p>
           <div className="mt-6">
             <a
@@ -78,4 +64,3 @@ export const About = () => {
     </section>
   );
 };
-

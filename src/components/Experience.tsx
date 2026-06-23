@@ -1,27 +1,23 @@
 export const Experience = () => {
   const experiences = [
     {
-      title: 'Teaching Assistant: Software Correctness',
-      company: 'UC Davis',
+      title: 'ECS 189C: Software Correctness',
+      company: 'UC Davis — Professor Caleb Stanford',
       location: 'Davis, CA',
-      period: 'Jan 2026 - Present',
-      description: `Assisted with the teaching of undergraduate course with class size of 62 students.
-- Guided students during weekly office hours, reviewing assignments, quizzes and exams.
-- Created an autograder in Python that will check students' homework.
-- Provided constructive feedback on assignments and exams.
-- Managed the course Q&A platform (Piazza) to provide support to students.`,
+      period: 'Winter 2026',
+      description: `- Facilitated weekly office hours for 70 students on formal verification, SMT solvers, and automated testing concepts.
+- Engineered a Python automated grading system to validate student submissions in Hypothesis, Pytest, Z3, and Dafny, reducing turnaround time by 90%.`,
       technologies: ['Python', 'Hypothesis', 'Pytest', 'Z3', 'Dafny'],
     },
     {
-      title: 'Teaching Assistant: Algorithm Design \& Analysis',
-      company: 'UC Davis',
+      title: 'ECS 122B: Algorithm Design & Analysis',
+      company: 'UC Davis — Dr. Yelena Frid',
       location: 'Davis, CA',
-      period: 'Apr 2025 - Jun 2025',
-      description: `Assisted with the teaching of undergraduate course with class size of 158 students.
-- Guided students during weekly office hours, reviewing assignments, quizzes and exams.
-- Created grading rubrics and solution keys to grade assignments and provide constructive feedback.
-- Managed the course Q&A platform (Piazza) to provide support to students`,
-      technologies: ['Suffix Tree', 'Divide and Conquer', 'Analysis of Algorithms'],
+      period: 'Spring 2025',
+      description: `- Taught fundamental algorithmic paradigms, complexity bounds, and asymptotic analysis for 150 undergraduate students.
+- Created comprehensive grading rubrics and solution keys and provided constructive feedback.
+- Moderated the Q&A platform (Piazza), resolving students' confusion and fostering a collaborative learning environment.`,
+      technologies: ['Algorithms', 'Complexity Analysis', 'Divide and Conquer'],
     },
   ];
 
